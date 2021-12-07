@@ -19,11 +19,11 @@ export const ShoppingPage = () => {
 					flexWrap: 'wrap',
 				}}
 			>
-				{/* <ProductCard product={product}>
+				<ProductCard product={product}>
 					<ProductCard.Image />
-					<ProductCard.Title title={''} />
-					<ProductCard.Buttons counter={0} increaseBy={() => console.log(1)} />
-				</ProductCard> */}
+					<ProductCard.Title />
+					<ProductCard.Buttons />
+				</ProductCard>
 
 				<ProductCard product={product}>
 					<ProductImage />
