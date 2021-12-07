@@ -27,8 +27,8 @@ export const ShoppingPage = () => {
 
 				<ProductCard product={product}>
 					<ProductImage />
-					<ProductTitle title={''} />
-					<ProductButtons counter={0} increaseBy={() => console.log(1)} />
+					<ProductTitle />
+					<ProductButtons />
 				</ProductCard>
 			</div>
 		</div>
